@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    
+    app:
+        container_name: daily-pet-facts
+        build:
+            context: .
+            dockerfile: ./compose/local/Dockerfile
+        volumes:
+            - .:/app
+        ports:
+            - "8000:8000"
+            
