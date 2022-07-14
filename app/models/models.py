@@ -1,8 +1,10 @@
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
+from ..config.database import Base
 
-class User:
+
+class User(Base):
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True)
@@ -15,7 +17,7 @@ class User:
     facts = relationship("Facts", back_populates="users")
 
 
-class Pet:
+class Pet(Base):
     __tablename__ = "pets"
 
     id = Column(Integer, primary_key=True)
@@ -24,7 +26,7 @@ class Pet:
     facts = relationship("Facts", back_populates="pets")
 
 
-class Fact:
+class Fact(Base):
     __tablename__ = "facts"
 
     id = Column(Integer, primary_key=True)
