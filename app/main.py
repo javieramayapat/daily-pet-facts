@@ -1,7 +1,12 @@
 from fastapi import FastAPI, status
-from .routers import facts_router, pets_router, users_router
 
 from typing import Dict
+
+from .models import models
+from .config.database import engine
+from .routers import facts_router, pets_router, users_router
+
+models.Base.metadata.create_all(bind=engine)
 
 
 app = FastAPI(title="😸Pet Facts API🐶",
