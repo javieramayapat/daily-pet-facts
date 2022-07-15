@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from ..models import Fact
+from ..models.models import Fact
 
 
 def get_facts(db: Session):
