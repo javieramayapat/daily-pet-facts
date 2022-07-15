@@ -1,17 +1,16 @@
-# 😸 Daily Pet Facts 🐶
+<h1 align="center" id="title">😸 Daily Pet Facts 🐶</h1>
 
 Public API to have fun and share knowledge about our domestic pets. 😸🐤🐶
 
 ## 📑Table of Contents
-- [😸 Daily Pet Facts 🐶](#-daily-pet-facts-)
-  - [📑Table of Contents](#table-of-contents)
-  - [🚀 Demo](#-demo)
-  - [💡Features](#features)
-  - [�‍💻 Installation Steps](#-installation-steps)
-  - [The process](#the-process)
-    - [🏗️ Build with](#️-build-with)
-  - [Licence](#licence)
-  - [Author](#author)
+- [�Table of Contents](#table-of-contents)
+- [🚀 Demo](#-demo)
+- [💡Features](#features)
+- [🧑‍💻 Installation Steps](#-installation-steps)
+- [The process](#the-process)
+  - [🏗️ Build with](#️-build-with)
+- [Licence](#licence)
+- [Author](#author)
 
 ## 🚀 Demo
 ![Daily Pet Facts](docs/images/pet-facts-api-documentation.png)
