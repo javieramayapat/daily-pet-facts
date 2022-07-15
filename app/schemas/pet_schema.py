@@ -5,9 +5,9 @@ class PetBase(BaseSchema):
     name: str
 
 
-class FactCreate(PetBase):
+class PetCreate(PetBase):
     pass
 
 
-class FactOut(PetBase):
+class PetOut(PetBase):
     id: int
