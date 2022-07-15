@@ -7,8 +7,7 @@ Public API to have fun and share knowledge about our domestic pets. 😸🐤🐶
   - [📑Table of Contents](#table-of-contents)
   - [🚀 Demo](#-demo)
   - [💡Features](#features)
-  - [🧬 Technology Stack](#-technology-stack)
-  - [🧑‍💻 Installation Steps](#-installation-steps)
+  - [�‍💻 Installation Steps](#-installation-steps)
   - [The process](#the-process)
     - [🏗️ Build with](#️-build-with)
   - [Licence](#licence)
@@ -23,12 +22,6 @@ Here're some of the projects's best features:
 - Get the detail of a fact in specific. 🐥
 - List a list with our best pest registered [🐤,😸,🐶]
 - Get a pet detail 😸
-
-
-## 🧬 Technology Stack
-
-
-To get started you just need to download docker on your machine, I leave the link right here. ➡️ [Docker](https://www.docker.com/get-started "Docker").
 
 ## 🧑‍💻 Installation Steps
 1. Clone the repository
@@ -52,6 +45,9 @@ Technologies used in this project:
 - [Pydantic ](https://pydantic-docs.helpmanual.io/) 💯
 - [PostgreSQL](https://www.postgresql.org/) 🐘
 - [SQLAlchemy](https://www.sqlalchemy.org/) ⚙️
+
+To get started you just need to download docker on your machine, I leave the link right here. ➡️ [Docker](https://www.docker.com/get-started "Docker").
+
 
 ## Licence
 > This project is licensed under the MIT License
