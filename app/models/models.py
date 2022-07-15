@@ -14,7 +14,7 @@ class User(Base):
     email = Column(String(150), nullable=False)
     password = Column(String(50), nullable=False)
 
-    facts = relationship("Facts", back_populates="users")
+    facts = relationship("Fact", back_populates="users")
 
 
 class Pet(Base):
@@ -23,7 +23,7 @@ class Pet(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(100), nullable=False)
 
-    facts = relationship("Facts", back_populates="pets")
+    facts = relationship("Fact", back_populates="pets")
 
 
 class Fact(Base):
@@ -34,7 +34,7 @@ class Fact(Base):
     description = Column(String(400), nullable=False)
     source = Column(String(200))
     user_id = Column(Integer, ForeignKey("users.id"))
-    pet_id = Column(Integer, ForeignKey("pet.id"))
-
-    users = relationship("Users", back_populates="facts")
-    pets = relationship("Pets", back_populates="facts")
+    pet_id = Column(Integer, ForeignKey("pets.id"))
+    
+    users = relationship("User", back_populates="facts")
+    pets = relationship("Pet", back_populates="facts")
